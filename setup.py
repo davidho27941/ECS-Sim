@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="ecs_sim",
-    version="0.1.0",
+    version="0.1.1",
     author="David Ho",
     author_email="davidho@gapp.nthu.edu.tw",
     description="A Simpy-based EV Charging Station Simulator.",

@@ -1,5 +1,5 @@
 import simpy
-from ecs_sim.simulators import EVChargingStationV0
+from ecs_sim.simulators import EVChargingStationAlpha
 
 def main():
     
@@ -12,7 +12,7 @@ def main():
     max_charging_rate = 10
     
     
-    ecs = EVChargingStationV0(env, num_evse, lambda_poisson, max_charging_rate)
+    ecs = EVChargingStationAlpha(env, num_evse, lambda_poisson, max_charging_rate)
     
     
     while env.peek() < num_timestamp:
